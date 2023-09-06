@@ -8,7 +8,7 @@ const UserItem = props => {
     <li className={styles["user-item"]}> 
       <div className='user-item__content'>
         <div className='user-item__image'>
-          <Avatar image={props.image} alt={props.name}/>
+          <Avatar image={props.image} alt={props.name} height={props.height} width={props.width}/>
         </div>
         <div className='user-item__info'>
           <h2>{props.name}</h2>
