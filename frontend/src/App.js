@@ -1,7 +1,8 @@
+import Users from './users/pages/Users';
 
 function App() {
   return (
-    <h2>Working fine!</h2>
+    <Users/>
   );
 }
 
