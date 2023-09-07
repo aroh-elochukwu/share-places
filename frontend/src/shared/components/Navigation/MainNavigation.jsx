@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 
 import MainHeader from './MainHeader';
+import NavLinks from "./NavLinks";
 import styles from './MainNavigation.module.css';
 
 const MainNavigation = props => {
@@ -17,7 +18,7 @@ const MainNavigation = props => {
         <Link to={'/'}>Share-Places</Link>
       </h1>
       <nav>
-        ...
+        <NavLinks/>
       </nav>
     </MainHeader>
   );

@@ -13,7 +13,7 @@ function App() {
       <main>
         <Routes>        
           <Route element={<Users/>} path='/' />     
-          <Route element={<NewPlace/>} path='/new-place' />             
+          <Route element={<NewPlace/>} path='/places/new' />             
         </Routes>
 
       </main>
