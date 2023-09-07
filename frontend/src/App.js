@@ -2,17 +2,22 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Users from './users/pages/Users';
-import UserItem from "./users/components/UserItem";
+import NewPlace from './places/pages/NewPlace';
+import MainNavigation from './shared/components/Navigation/MainNavigation';
+
 
 function App() {
   return (
     <Router>
-      <Routes>
-        
-        <Route element={<Users/>} path='/' />     
-        <Route element={<UserItem/>} path='/user-item' />     
-        
-      </Routes>
+      <MainNavigation/>
+      <main>
+        <Routes>        
+          <Route element={<Users/>} path='/' />     
+          <Route element={<NewPlace/>} path='/new-place' />             
+        </Routes>
+
+      </main>
+      
     </Router>
     
 
