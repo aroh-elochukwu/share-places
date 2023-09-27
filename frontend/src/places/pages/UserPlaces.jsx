@@ -32,13 +32,13 @@ const DUMMY_PLACES = [
   },
   {
     id: 'p3',
-    title: 'The Forks',
-    description: 'The Forks National Historic Site of Canada is an area of publicly accessible land in the heart of the City of Winnipeg, Manitoba, comprised of areas known as the South Point and North Point situated on opposite sides of the Assiniboine River on the west bank of the Red River.',
-    imageUrl: 'https://lh3.googleusercontent.com/gps-proxy/AF-Tc0RGF7cQ94g4EjyIFgkVZLFae3N_eAbuvcaRMik_vNTGyGlcM1NfK3qfHc82shk-DAlrS_-99vOD99jpg23CDb-GN0xwegrzrIuJhSNnLyWPR3HFyRE4444Buk3fivIS2x_D2ObvW9Dm8NyttMI59RXui9ZtUdAih5lR2j65afDAEnYwWBVRUQsp=w408-h306-k-no',
-    address: 'The Forks National Historic Site of Canada is an area of publicly accessible land in the heart of the City of Winnipeg, Manitoba, comprised of areas known as the South Point and North Point situated on opposite sides of the Assiniboine River on the west bank of the Red River.',
+    title: 'Manitoba Institute of Trades and Technology',
+    description: 'MITT provides certificate, post-graduate, and diploma-level technical training for career-oriented post-secondary and secondary students in six clusters of specialization: skilled trades, design and manufacturing technologies, applied business, information and communication technology, health care, and human services.',
+    imageUrl: 'https://mitt.ca/Content/Images/uploaded/henlow-campus-800-400.jpg?width=800',
+    address: '130 Henlow Bay, Winnipeg, MB R3Y 1G4',
     location: {
-      lat: 49.8903622,
-      lng: -97.1358224
+      lat: 49.814922,
+      lng: -97.192765
     },
     creator: 'u1'
 
